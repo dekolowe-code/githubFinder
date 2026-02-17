@@ -46,7 +46,7 @@ const Card = ({ user, onClick }) => {
           </a>
         </div>
       </div>
-      <div className="flex gap-2 justify-evenly items-center m-3">
+      <div className="flex flex-wrap gap-2 justify-evenly items-center m-3">
         <p className="py-2 flex items-center gap-0.5 px-8 rounded bg-gray-600">
           <BsPeopleFill /> {followers} followers
         </p>
